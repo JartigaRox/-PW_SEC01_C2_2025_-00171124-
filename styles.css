@@ -6,12 +6,16 @@
     align-content: center;
     text-align: center;
 }
+.header{
+    background-color: #90ee90;
+    border-radius: 12px;
+}
 
 .descripcion {
     float: center;
     display: block;
-    margin-left: 300px;
-    margin-right: 50px;
+    margin-left: 400px;
+    margin-right: 150px;
     padding-left: auto;
     padding-right: 50px;
     
@@ -21,6 +25,8 @@
     float: left;
     margin-right: auto;
     padding-right: auto;
+    margin-left: 15px;
+    padding-left: 15px;
 }
 
 .contenido {
@@ -51,4 +57,12 @@ button {
         background-color: #e0e0e0;
         color: #222;
     }
+
+.wrapButtons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
     

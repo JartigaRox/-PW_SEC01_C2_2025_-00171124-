@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
             img.alt = "Descripcion de la imagen";
             img.style.maxWidth = "100%";
             img.style.height = "auto";
+            img.style.marginTop = "15px";
             img.id = "miImagen";
             document.body.appendChild(img);
             const ulDiv = document.querySelector("div ul");
@@ -33,6 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
     window.cambiarEstilo = function() {
         const contenido = document.querySelector(".subDesc");
         contenido.style.fontFamily = "comic sans ms, sans-serif";
-        contenido.style.color = "red";
+        contenido.style.color = "blue";
     }
 });
