@@ -1,0 +1,30 @@
+#header h1{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.descripcion {
+    float: center;
+    display: block;
+    margin-left: 300px;
+    margin-right: 50px;
+    padding-left: auto;
+    padding-right: 50px;
+    
+}
+
+.UL {
+    float: left;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+.contenido {
+    flex: 1;
+  padding: 10px;
+  text-align: justify;
+}
